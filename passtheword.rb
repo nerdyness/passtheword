@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require './lib/hashme.rb'
 
 fail "usage: #{$0} plain-text-password" if $*.empty?
