@@ -1,0 +1,5 @@
+%h2 
+%form#reverse(action="/" method="POST")
+  As soon as you click "send", the hash'd password will be in your paste buffer for the next #{timeout} seconds - once this page reloads, your current paste buffer will be restored.<br>
+  %input#word(type="text" name="word")
+  %input(type="submit" value="send")
