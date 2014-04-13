@@ -1,4 +1,4 @@
-require './hashme.rb'
+require './lib/hashme.rb'
 
 fail "usage: #{$0} plain-text-password" if $*.empty?
 

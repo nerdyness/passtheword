@@ -1,5 +1,5 @@
 require 'sinatra'
-require './hashme.rb'
+require './lib/hashme.rb'
 
 class Server
   extend Hashme
